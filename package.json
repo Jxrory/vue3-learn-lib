@@ -1,8 +1,12 @@
 {
   "name": "jxrory-vue3-learn-lib",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A library demo for learning vue3 lib.",
   "author": "jxrory <jxrory@jxrory.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxrory/vue3-learn-lib.git"
+  },
   "license": "MIT",
   "files": [
     "dist"

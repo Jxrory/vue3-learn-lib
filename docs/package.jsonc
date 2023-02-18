@@ -9,11 +9,11 @@
   "author": "jxrory <jxrory@jxrory.com>",
   // // 主页
   // "homepage": "https://github.com/jxrory/vue3-learn-lib",
-  // // 仓库
-  // "repository": {
-  //   "type": "git",
-  //   "url": "git+https://github.com/jxrory/vue3-learn-lib.git"
-  // },
+  // 仓库
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxrory/vue3-learn-lib.git"
+  },
   // 遵循协议
   "license": "MIT",
   // 指定发布到 npm 上的文件范围，格式为 string[] 支持配置多个文件名或者文件夹名称。
