@@ -1,0 +1,39 @@
+{
+  // npm 包的名称
+  "name": "@jxrory/vue3-learn-lib",
+  // npm 包的版本号
+  "version": "0.1.0",
+  // 描述
+  "description": "A library demo for learning vue3 lib.",
+  // 作者
+  "author": "jxrory <jxrory@jxrory.com>",
+  // // 主页
+  // "homepage": "https://github.com/jxrory/vue3-learn-lib",
+  // // 仓库
+  // "repository": {
+  //   "type": "git",
+  //   "url": "git+https://github.com/jxrory/vue3-learn-lib.git"
+  // },
+  // 遵循协议
+  "license": "MIT",
+  // 指定发布到 npm 上的文件范围，格式为 string[] 支持配置多个文件名或者文件夹名称。
+  "files": ["dist"],
+  // 项目的入口文件，通常指向构建产物所在目录的某个文件，该文件通常包含了所有模块的导出。
+  "main": "dist/index.cjs",
+  // 当项目使用 import 引入 npm 包时对应的入口文件，通常指向一个 es 格式的文件，对应 ES Module 规范。
+  "module": "dist/index.mjs",
+  // 当项目使用了 npm 包的 CDN 链接，在浏览器访问页面时的入口文件，通常指向一个 umd 格式的文件，对应 UMD 规范。
+  "browser": "dist/index.min.js",
+  // 一个 .d.ts 类型声明文件，包含了入口文件导出的方法 / 变量的类型声明，如果项目有自带类型文件，那么在使用者在使用 TypeScript 开发的项目里，可以得到友好的类型提示
+  "types": "dist/index.d.ts",
+  // 关键词
+  "keywords": ["library", "demo", "example"],
+  // 执行脚本
+  "scripts": {
+    "build": "vite build"
+  },
+  // 开发依赖
+  "devDependencies": {
+    "vite": "^4.1.2"
+  }
+}
