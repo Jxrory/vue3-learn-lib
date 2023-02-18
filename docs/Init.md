@@ -131,4 +131,4 @@ vue3-learn-lib
 
 ## 参考
 
-- [https://vue3.chengpeiquan.com/plugin.html#%E9%80%9A%E7%94%A8-js-ts-%E6%8F%92%E4%BB%B6](https://vue3.chengpeiquan.com/plugin.html#%E9%80%9A%E7%94%A8-js-ts-%E6%8F%92%E4%BB%B6)
+- [https://vue3.chengpeiquan.com/plugin.html](https://vue3.chengpeiquan.com/plugin.html)
