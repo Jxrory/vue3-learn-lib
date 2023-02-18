@@ -17,10 +17,11 @@
     "example"
   ],
   "scripts": {
-    "test": "echo 'Test'",
-    "build": "vite build"
+    "build": "vite build && npm run build:types",
+    "build:types": "node scripts/buildTypes.mjs"
   },
   "devDependencies": {
+    "dts-bundle-generator": "^7.2.0",
     "vite": "^4.1.2",
     "vite-plugin-banner": "^0.7.0"
   }
