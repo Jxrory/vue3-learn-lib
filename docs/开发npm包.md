@@ -61,14 +61,14 @@ npm list -g
 cd path/to/my-project
 
 # 通过 npm 包的包名称关联本地软链接
-npm link @jxrory/vue3-learn-lib
+npm link jxrory-vue3-learn-lib
 ```
 
 ### 使用关联包
 
 ```ts
-// 请将 `@jxrory/vue3-learn-lib` 更换为实际的包名称
-import { getRandomNumber } from "@jxrory/vue3-learn-lib";
+// 请将 `jxrory-vue3-learn-lib` 更换为实际的包名称
+import { getRandomNumber } from "jxrory-vue3-learn-lib";
 
 const num = getRandomNumber();
 console.log(num);

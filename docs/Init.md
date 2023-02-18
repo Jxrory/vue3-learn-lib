@@ -16,7 +16,7 @@ npm init -y
 ```json
 {
   // npm 包的名称
-  "name": "@jxrory/vue3-learn-lib",
+  "name": "jxrory-vue3-learn-lib",
   // npm 包的版本号
   "version": "0.1.0",
   // 描述
